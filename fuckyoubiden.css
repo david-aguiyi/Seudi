@@ -13,6 +13,10 @@
 	src: url(Thariqah-9MYVB.otf);
 }
 
+.head-button {
+	font-family: "Space Mono", monospace;
+}
+
 body {
 	background: #f2b974;
 	margin: 0;
@@ -113,16 +117,16 @@ button {
 	cursor: pointer;
 	display: inline-flex;
 	font-size: 16px;
-	font-family: "Space Mono", monospace;
 	align-items: center;
 	justify-content: center;
 	transition: 0.2s ease-in-out;
 	border: 2px solid #4d4113;
+	font-family: "Space Mono", monospace;
+
 	border-bottom: 5px solid #4d4113;
 	border-radius: 10px;
 	width: 130px;
 	height: 50px;
-	font-family: "Space Mono" monospace;
 	align-self: flex-end;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
@@ -145,9 +149,8 @@ button {
 	}
 }
 .main-button {
-	/* padding-top: 2em; */
 	display: flex;
-	font-family: "Space Mono" monospace;
+	font-family: "Space Mono";
 	justify-content: center;
 }
 
@@ -545,6 +548,7 @@ img#comm {
 	margin-top: 100px;
 	font-size: 14px;
 	font-weight: 400;
+	font-family: "Space Mono", monospace;
 	border-radius: 20px;
 	border: 2px solid #000000;
 	position: relative;
@@ -566,7 +570,11 @@ button.buy {
 }
 
 .cont {
-	margin-top: 120px;
+	margin-top: 100px;
+}
+
+.underw {
+	margin-top: 130px;
 }
 
 .cont h2 {
@@ -577,12 +585,15 @@ button.buy {
 
 .dimag .logo3 {
 	border-radius: 30px;
-	margin-bottom: 29px;
 }
 
 .dimag .ray {
-	width: 40%;
+	width: 50%;
 }
+.dimag .sol {
+	width: 10rem;
+}
+
 .fp2 {
 	font-weight: 600;
 	font-size: 16px;
@@ -590,11 +601,13 @@ button.buy {
 
 .cont p {
 	color: #000000;
+	font-family: "Space Mono", monospace;
 }
 
 .ca {
 	font-size: 10px;
 	margin-top: 1rem;
+	font-family: "Space Mono", monospace;
 }
 
 .swap {
@@ -603,6 +616,7 @@ button.buy {
 
 .ca-num {
 	font-weight: 900;
+	font-family: "Space Mono", monospace;
 }
 
 .section-5 {
@@ -614,12 +628,12 @@ button.buy {
 	padding: 30px;
 	background-color: #cc8766;
 	display: flex;
+	font-family: "Space Mono", monospace;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: left;
 	margin: 40px;
-
 	margin-top: 100px;
 	font-size: 14px;
 	font-weight: 400;
@@ -650,6 +664,8 @@ button.buy {
 
 footer p {
 	text-align: center;
+	margin-top: 40px;
+	font-family: "Space Mono", monospace;
 	margin-bottom: 20px;
 }
 
@@ -671,6 +687,11 @@ footer p {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+}
+
+button .launch {
+	font-weight: 900;
+	font-family: "Space Mono" monospace;
 }
 
 h1 {
@@ -1263,6 +1284,10 @@ img.right-img {
 		width: 400px;
 		margin-left: 20px;
 		transform: rotate(5deg);
+	}
+
+	button.lauch {
+		font-family: "Space Mono", monospace;
 	}
 
 	button.buy {
